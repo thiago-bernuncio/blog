@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 // axios
 import axios from 'axios'
 
-// CSS
+// CSS 
 import './Home.css'
 
 const Home = () => {
@@ -30,7 +30,7 @@ const Home = () => {
 
 
     return (
-        <div>
+        <div className='home'>
             <h1>Últimos posts</h1>
             {posts.length === 0 ? <p>Carregando...</p> : (
                 posts.map((post) => (
